@@ -15,6 +15,6 @@ processors:
   - add_cloud_metadata: ~
 
 output.elasticsearch:
-  hosts: 'elasticsearch:9200'
+  hosts: 'elasticsearch-master:9200'
   username: 'heartbeat_write'
   password: 'Hujan404'
